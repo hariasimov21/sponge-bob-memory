@@ -1,0 +1,32 @@
+@font-face {
+    font-family: spongeboy;
+    src: url("/src/SpongeboyRegular-gx2n6.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    background-image: url("/images/wallpaper.png");
+    font-family: spongeboy;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: #FAF073;
+}
+
+#score {
+    color: aqua;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+}
